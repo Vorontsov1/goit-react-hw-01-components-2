@@ -1,11 +1,10 @@
 import { Profile } from 'components/Profile/Profile';
-// import {FriendList} from 'components/FriendList/FriendList';
-// import {FriendListItem} from 'components/FriendListItem/FriendListItem';
+import {FriendList} from 'components/FriendList/FriendList';
 // import {Statistics} from 'components/Statistics/Statistics';
 // import {TransactionHistory} from 'components/TransactionHistory/TransactionHistory';
 
 import profile from '../components/Data/profile.json';
-// import friends from '../components/Data/friends.json';
+import friends from '../components/Data/friends.json';
 // import statistics from '../components/Data/statistics.json';
 // import transaction from '../components/Data/transactions.json';
 
@@ -23,9 +22,9 @@ export const App = () => {
       avatar={profile.avatar}
       stats={profile.stats} />
 
-      {/* <FriendList />
-      <Statistics />
-      <TransactionHistory />  */}
+       <FriendList friends={friends}/>
+      {/* <Statistics />
+      <TransactionHistory />   */}
     </div>
     
    
