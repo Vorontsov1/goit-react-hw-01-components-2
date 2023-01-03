@@ -3,10 +3,10 @@ import {FriendList} from 'components/FriendList/FriendList';
 import {Statistics} from 'components/Statistics/Statistics';
 import {TransactionHistory} from 'components/TransactionHistory/TransactionHistory';
 
-import profile from '../components/Data/profile.json';
-import friends from '../components/Data/friends.json';
-import statistics from '../components/Data/statistics.json';
-import transaction from '../components/Data/transactions.json';
+import profile from '../data/profile.json';
+import friends from '../data/friends.json';
+import statistics from '../data/statistics.json';
+import transaction from '../data/transactions.json';
 
 
 
